@@ -9,13 +9,13 @@ Realiza las siguientes funciones:
 
 ## Requisitos
 
-Antes de compilar y ejecutar el programa, asegúrate de tener instalados:
+Antes de compilar y ejecutar el programa, se deben tener instalados:
 
 - **g++** (compilador de C++)
 - **tinyxml2** (para procesar archivos XML)
 - **nlohmann/json** (para procesar archivos JSON)
 
-Para instalar estos paquetes en macOS con Homebrew:
+Se deben instalar los siguientes paquetes en macOS con Homebrew:
 ```sh
 brew install tinyxml2
 brew install nlohmann-json
@@ -23,14 +23,14 @@ brew install nlohmann-json
 
 ## Compilación
 
-Para compilar el código fuente con el siguiente comando:
+El código fuente se compila con el siguiente comando:
 ```sh
 g++ -std=c++11 -o employee_processor employee_processor.cpp -ltinyxml2
 ```
 
 ## Uso
 
-Ejecutar el programa proporcionando el tipo de archivo (**xml** o **json**) y la ruta del archivo de entrada:
+Para ejecutar el programa se debe proporcionar el tipo de archivo (**xml** o **json**) y la ruta del archivo de entrada:
 
 ```sh
 ./employee_processor xml employees.xml
@@ -45,5 +45,5 @@ Ejecutar el programa proporcionando el tipo de archivo (**xml** o **json**) y la
 
 Este proyecto usa Git para el control de versiones. Para clonar el repositorio:
 ```sh
-git clone <URL_DEL_REPO>
+git clone [<URL_DEL_REPO>](https://github.com/admojica/amadeus_json_xml)
 ```
